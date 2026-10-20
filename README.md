@@ -32,7 +32,7 @@ The dataset is **not included** in this repository.
 
 The slices were built from T1-weighted scans in public [OpenNeuro](https://openneuro.org) datasets, including AgeRisk, Cerebrovascular Reactivity Normative, Characterizing Habit Learning, Individual Risk, and a listening-task dataset. For each scan, the 31 slices around the centre of the volume were extracted along each axis, rotated and flipped to a common orientation, and padded or cropped to 256×256. This produced about 18,700 sagittal slices, saved as NIfTI files.
 
-The library used to generate these slices from the raw scans has been separated from this project and is not included here. This repository starts from the finished slices.
+The library used to generate these slices from the raw scans has been separated from this project and is not included here (See my Nifl project). This repository starts from the finished slices.
 
 To run the pipeline, put your own 256×256 sagittal slices (`.nii.gz`) in `DS_final/sagittal/`.
 
