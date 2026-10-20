@@ -6,8 +6,6 @@ This repository contains the code behind my MSc project and the publication that
 
 It is a cleaned-up rewrite of the original project code, made so I could share the work. The approach and model architecture are the same as in the paper. The code has been tidied, made portable, and had some bugs fixed (see [Changes from the original code](#changes-from-the-original-code)), so a model retrained with this version will not reproduce the paper's numbers exactly.
 
-The original research proposal (background, literature review, research questions) is in [PROPOSAL.md](PROPOSAL.md).
-
 ## What it does
 
 A deep convolutional GAN is trained on 2D sagittal slices of T1-weighted brain MRI scans and learns to generate new, synthetic 256×256 slices. Synthetic scans like these can supplement real data for training AI models in brain imaging without exposing real patients' data.
